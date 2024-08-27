@@ -33,7 +33,7 @@ import pprint
 import spacy
 
 # Set your API key as an environment variable
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyCh5ePMjn6WDWhMMZwA7A0JI9HaZj2FmhA'
+os.environ["GOOGLE_API_KEY"] = 'ENTER_YOUR_GEMINI_API_KEY'
 
 # Configure the API key
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
